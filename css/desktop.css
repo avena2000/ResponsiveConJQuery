@@ -1,0 +1,91 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arimo", sans-serif;
+    font-size: 16px;
+    color: black;
+}
+header {
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+header .barras {
+    display: none;
+}
+header nav{
+    display: block
+}
+header ul {
+    display: flex;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 20px;
+}
+.hero {
+
+    background: url("../imagenes/foto_slide.jpg") center/cover no-repeat;
+    height: 500px;
+}
+.hero div {
+    height: 75%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero h1{
+    max-width: 60%;
+    font-weight: 400;
+    font-size: 52px;
+    color: white;
+}
+.servicios {
+    padding: 50px 0;
+}
+.servicios h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+.servicios h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #6cb500;
+}
+.servicios .informacion {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    gap: 20px;
+}
+.informacion article {
+    flex: 1 1 0;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 35px 50px 35px;
+    border-radius: 15px;
+    gap: 10px;
+}
+.informacion article p {
+    text-align: center;
+}
+.informacion img {
+    height: 120px;
+}
